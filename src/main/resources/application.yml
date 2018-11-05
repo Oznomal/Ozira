@@ -16,6 +16,6 @@ spring:
     username: b8c72c59f5a6fe
     password: 08e75eaf
 
-  server:
-    port: ${PORT:8080}
+server:
+  port: ${PORT:8080}
 
