@@ -1,0 +1,18 @@
+# MYSQL SETUP
+spring:
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+
+    hibernate:
+      ddl-auto: update
+
+    #properties:
+      #hibernate:
+        #dialect: org.hibernate.dialect.MySQL57Dialect
+
+  datasource:
+    url: jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/heroku_bb5885d42221bd5?reconnect=true
+    username: b8c72c59f5a6fe
+    password: 08e75eaf
+
